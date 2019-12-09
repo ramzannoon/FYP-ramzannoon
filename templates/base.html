@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light bg-danger mb-4">
+    <a class="navbar-brand" href="#">
+    <img src="static/images/1222.webp" alt="Logo" style="width:40px;">
+  </a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link active text-white">Home</a>
+            <a href="/login" class="nav-item nav-link text-white">Profile</a>
+            <a href="#" class="nav-item nav-link text-white">Messages</a>
+            <a href="#" class="nav-item nav-link disabled text-white" tabindex="-1">Reports</a>
+        </div>
+        <div class="navbar-nav ml-auto">
+            <a href="/login" class="nav-item nav-link text-white">Login</a>
+        </div>
+    </div>
+</nav>
+
+{% block body %}{% endblock %}
+<!-- Footer -->
+<footer class="page-footer bg-danger font-small blue mt-4 pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase text-white">The Smart School</h5>
+        <p class="text-white">The smart School is the top rank school in world.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase text-white">Courses</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">class 1</a>
+          </li>
+          <li>
+            <a href="#!"  class="text-white">class 2</a>
+          </li>
+          <li>
+            <a href="#!"  class="text-white">class 3</a>
+          </li>
+          <li>
+            <a href="#!"  class="text-white">class 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase text-white">Events</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!"  class="text-white">Events 1</a>
+          </li>
+          <li>
+            <a href="#!"  class="text-white">Events 2</a>
+          </li>
+          <li>
+            <a href="#!"  class="text-white">Events 3</a>
+          </li>
+          <li>
+            <a href="#!"  class="text-white">Events 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center text-white py-3">© 2018 Copyright:
+    <a href="/"> The Smart School</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</body>
+</html>
